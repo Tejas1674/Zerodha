@@ -1,3 +1,92 @@
-*{
-    margin: ;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
+	width: 100dvw;
+	height: 100dvh;
+}
+.container {
+	position: relative;
+	width: 1100px;
+	max-width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	top: 0;
+}
+.navbar {
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	background-color: #fff;
+	box-shadow: 2px 1px 2px #eee;
+	box-sizing: border-box;
+}
+.container .logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container .logo img {
+	max-height: 17px;
+}
+
+.container .list ul {
+	text-decoration: none;
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+}
+.list > li > a {
+	color: #666;
+	font-size: 0.9rem;
+	transition: color 0.3s;
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.bar-icon {
+	display: flex;
+	flex-direction: column;
+}
+.bar-icon span {
+	width: 25px;
+	height: 3px;
+	background-color: black;
+	margin: 1px;
+}
+
+/* main section */
+.hero-container {
+	padding-top: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container img {
+	margin-bottom: 60px;
+	max-height: 45vh;
+}
+.hero-container .container div {
+	/* display: flex; */
+	/* flex-direction: column; */
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.button {
+	background-color: blue;
+}
+@media (max-width: 700px) {
+	.container {
+		flex-direction: column;
+	}
 }
