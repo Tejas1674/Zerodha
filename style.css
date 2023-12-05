@@ -20,7 +20,7 @@ p {
 }
 
 body {
-	font-family: "Poppins", sans-serif;
+	font-family: "Inter", serif;
 	overflow-x: hidden;
 	width: 100dvw;
 	height: 100dvh;
@@ -237,7 +237,7 @@ section {
 .right-card img {
 	width: 100%;
 }
-.card .right-card .row {
+.row {
 	box-sizing: border-box;
 	display: flex;
 	flex: 0 1 auto;
